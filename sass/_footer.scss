@@ -1,0 +1,18 @@
+.author {
+    grid-column: 2;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a:link,
+    a:visited {
+        text-decoration: none;
+        color: var(--col-headings);
+    }
+
+    span {
+        color: var(--col-white);
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:wght@400;500;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&family=Work+Sans&display=swap"
+            rel="stylesheet"
+        />
+
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="js/script.js" defer></script>
+
+        <title>ListEase</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <h1 class="header__quote">Organize Your Day</h1>
+            <div class="logos">
+                <div class="header__app-logo"><span>List</span>Ease</div>
+            </div>
+        </header>
+
+        <main class="todo-wrapper">
+            <div class="todo">
+                <div class="todo__header">
+                    <h2>Add Task</h2>
+                    <form autocomplete="off">
+                        <input
+                            id="taskInput"
+                            type="text"
+                            placeholder="What is you task?"
+                        />
+                        <input id="btnAddTask" type="submit" value="Add task" />
+                    </form>
+                </div>
+                <div class="todo__body" id="taskContainer">
+                    <div class="tasks" id="taskList"></div>
+                    <div class="no-task" id="noTask">
+                        You don't have any tasks currently
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer class="author">
+            <p>
+                Coded by
+                <a href="https://github.com/NirmalChandra21"
+                    ><span>Zeld</span></a
+                >.
+            </p>
+        </footer>
+    </body>
+</html>
